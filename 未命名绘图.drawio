@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.9.2">
   <diagram name="第 1 页" id="ZfpuJcAWG4KoZAY-R3oi">
-    <mxGraphModel dx="849" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -289,16 +289,52 @@
             <mxRectangle width="224" height="159" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8xvinI1Koq5GKLLgfp_T-231" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.building;" vertex="1" parent="8xvinI1Koq5GKLLgfp_T-30">
-          <mxGeometry x="12.67999999999995" y="21.309999999999945" width="68" height="68" as="geometry" />
-        </mxCell>
-        <mxCell id="8xvinI1Koq5GKLLgfp_T-232" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Large_Building.svg;" vertex="1" parent="8xvinI1Koq5GKLLgfp_T-30">
-          <mxGeometry x="137.45" y="21.310000000000002" width="68" height="68" as="geometry" />
-        </mxCell>
         <mxCell id="8xvinI1Koq5GKLLgfp_T-31" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;strokeColor=inherit;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="8xvinI1Koq5GKLLgfp_T-28">
           <mxGeometry x="487" width="223" height="159" as="geometry">
             <mxRectangle width="223" height="159" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8xvinI1Koq5GKLLgfp_T-231" value="数字模型" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;outlineConnect=0;shape=mxgraph.veeam.building;" vertex="1" parent="8xvinI1Koq5GKLLgfp_T-31">
+          <mxGeometry x="8.389999999999958" y="25.999999999999943" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="8xvinI1Koq5GKLLgfp_T-232" value="物理模型" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Large_Building.svg;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="8xvinI1Koq5GKLLgfp_T-31">
+          <mxGeometry x="142.71000000000004" y="26" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="8xvinI1Koq5GKLLgfp_T-233" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/SendGrid_Accounts.svg;" vertex="1" parent="8xvinI1Koq5GKLLgfp_T-31">
+          <mxGeometry x="83.63999999999999" y="84" width="48.14" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8xvinI1Koq5GKLLgfp_T-238" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.018;entryY=0.582;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#3399FF;" edge="1" parent="8xvinI1Koq5GKLLgfp_T-31" source="8xvinI1Koq5GKLLgfp_T-231" target="8xvinI1Koq5GKLLgfp_T-233">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="42.710000000000036" y="113" />
+              <mxPoint x="63.710000000000036" y="113" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8xvinI1Koq5GKLLgfp_T-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399ff;" edge="1" parent="8xvinI1Koq5GKLLgfp_T-31" source="8xvinI1Koq5GKLLgfp_T-233" target="8xvinI1Koq5GKLLgfp_T-232">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="112.71000000000004" y="45" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8xvinI1Koq5GKLLgfp_T-240" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.954;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="8xvinI1Koq5GKLLgfp_T-31" source="8xvinI1Koq5GKLLgfp_T-232" target="8xvinI1Koq5GKLLgfp_T-233">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="182.71000000000004" y="112" />
+              <mxPoint x="151.71000000000004" y="112" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8xvinI1Koq5GKLLgfp_T-241" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8xvinI1Koq5GKLLgfp_T-31" source="8xvinI1Koq5GKLLgfp_T-233" target="8xvinI1Koq5GKLLgfp_T-231">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="96.71000000000004" y="46" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8xvinI1Koq5GKLLgfp_T-242" value="时空语义信息辅助建筑物模型数据对齐" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8xvinI1Koq5GKLLgfp_T-31">
+          <mxGeometry y="129" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8xvinI1Koq5GKLLgfp_T-131" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="90" y="800" width="1260" height="300" as="geometry" />
