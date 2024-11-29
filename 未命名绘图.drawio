@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.9.2">
   <diagram name="第 1 页" id="ZfpuJcAWG4KoZAY-R3oi">
-    <mxGraphModel dx="920" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1104" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -289,6 +289,31 @@
             <mxRectangle width="224" height="159" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="8xvinI1Koq5GKLLgfp_T-247" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8xvinI1Koq5GKLLgfp_T-30" source="8xvinI1Koq5GKLLgfp_T-243" target="8xvinI1Koq5GKLLgfp_T-244">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="117" y="69" />
+              <mxPoint x="117" y="69" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8xvinI1Koq5GKLLgfp_T-243" value="建筑工程" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.aws_iot;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="8xvinI1Koq5GKLLgfp_T-30">
+          <mxGeometry x="17" y="16.36" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="8xvinI1Koq5GKLLgfp_T-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8xvinI1Koq5GKLLgfp_T-30" source="8xvinI1Koq5GKLLgfp_T-244" target="8xvinI1Koq5GKLLgfp_T-243">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="117" y="39" />
+              <mxPoint x="117" y="39" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8xvinI1Koq5GKLLgfp_T-244" value="时空语义表征" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.alexa_skill;" vertex="1" parent="8xvinI1Koq5GKLLgfp_T-30">
+          <mxGeometry x="146.99999999999994" y="16.359999999999992" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="8xvinI1Koq5GKLLgfp_T-245" value="建筑工程四个阶段时空语义信息数据对齐" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8xvinI1Koq5GKLLgfp_T-30">
+          <mxGeometry x="-8" y="119" width="240" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="8xvinI1Koq5GKLLgfp_T-31" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;strokeColor=inherit;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" vertex="1" parent="8xvinI1Koq5GKLLgfp_T-28">
           <mxGeometry x="487" width="223" height="159" as="geometry">
             <mxRectangle width="223" height="159" as="alternateBounds" />
@@ -333,7 +358,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8xvinI1Koq5GKLLgfp_T-242" value="时空语义信息辅助建筑物模型数据对齐" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8xvinI1Koq5GKLLgfp_T-31">
+        <mxCell id="8xvinI1Koq5GKLLgfp_T-242" value="时空语义信息辅助建筑物模型数据匹配" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8xvinI1Koq5GKLLgfp_T-31">
           <mxGeometry y="129" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8xvinI1Koq5GKLLgfp_T-131" value="" style="group" vertex="1" connectable="0" parent="1">
