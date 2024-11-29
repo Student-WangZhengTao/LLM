@@ -1,11 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.9.2">
   <diagram name="第 1 页" id="ZfpuJcAWG4KoZAY-R3oi">
-    <mxGraphModel dx="1213" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1415" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="s33GEvEaxMYmXVZrxAXG-2" value="面向BIM数据的时空语义表征研究" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCE5FF;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="90" y="10" width="1270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8xvinI1Koq5GKLLgfp_T-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s33GEvEaxMYmXVZrxAXG-81" target="s33GEvEaxMYmXVZrxAXG-82">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="s33GEvEaxMYmXVZrxAXG-81" value="BIM数据" style="image;points=[];html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Building_Cluster.svg;" parent="1" vertex="1">
           <mxGeometry x="147.5" y="80" width="120" height="100" as="geometry" />
@@ -680,6 +683,9 @@
         </mxCell>
         <mxCell id="8xvinI1Koq5GKLLgfp_T-139" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Identity_Governance.svg;" vertex="1" parent="8xvinI1Koq5GKLLgfp_T-140">
           <mxGeometry width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8xvinI1Koq5GKLLgfp_T-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s33GEvEaxMYmXVZrxAXG-82" target="s33GEvEaxMYmXVZrxAXG-83">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
