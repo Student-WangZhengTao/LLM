@@ -111,10 +111,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="S7ipmS2MTnEU-Al_-uoX-23" value="空间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="10" width="60" height="30" as="geometry" />
+          <mxGeometry x="20" y="-30" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S7ipmS2MTnEU-Al_-uoX-24" value="时间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="920" y="530" width="60" height="30" as="geometry" />
+          <mxGeometry x="980" y="520" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S7ipmS2MTnEU-Al_-uoX-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S7ipmS2MTnEU-Al_-uoX-25" target="S7ipmS2MTnEU-Al_-uoX-49">
           <mxGeometry relative="1" as="geometry">
@@ -185,50 +185,6 @@
             <mxPoint x="586.5" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S7ipmS2MTnEU-Al_-uoX-90" target="S7ipmS2MTnEU-Al_-uoX-94">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-90" value="时空语义表征" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.alexa_skill;labelPosition=right;" vertex="1" parent="1">
-          <mxGeometry x="580.07" y="120" width="68" height="68" as="geometry" />
-        </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-92" value="数字模型" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;outlineConnect=0;shape=mxgraph.veeam.building;" vertex="1" parent="1">
-          <mxGeometry x="413.5" y="-68" width="68" height="68" as="geometry" />
-        </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-93" value="物理模型" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Large_Building.svg;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="742.0000000000001" y="-68" width="68" height="68" as="geometry" />
-        </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-94" value="&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;时空语义信息辅助建筑物模型数据匹配&lt;/span&gt;" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/integration/SendGrid_Accounts.svg;labelPosition=right;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="590.0000000000001" y="-9" width="48.14" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.018;entryY=0.582;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#3399FF;" edge="1" parent="1" source="S7ipmS2MTnEU-Al_-uoX-92" target="S7ipmS2MTnEU-Al_-uoX-94">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="486" y="20" />
-              <mxPoint x="591" y="20" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399ff;" edge="1" parent="1" source="S7ipmS2MTnEU-Al_-uoX-94" target="S7ipmS2MTnEU-Al_-uoX-93">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="630" y="-50" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S7ipmS2MTnEU-Al_-uoX-93" target="S7ipmS2MTnEU-Al_-uoX-94">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="804" y="20" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S7ipmS2MTnEU-Al_-uoX-94" target="S7ipmS2MTnEU-Al_-uoX-92">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="600" y="-50" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="S7ipmS2MTnEU-Al_-uoX-100" value="设计阶段" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.servo;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="224" y="559" width="90" height="78" as="geometry" />
         </mxCell>
@@ -279,11 +235,61 @@
         <mxCell id="S7ipmS2MTnEU-Al_-uoX-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.506;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S7ipmS2MTnEU-Al_-uoX-166" target="S7ipmS2MTnEU-Al_-uoX-167">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S7ipmS2MTnEU-Al_-uoX-178" target="S7ipmS2MTnEU-Al_-uoX-90">
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-206" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="430" width="380.0000000000001" height="332" as="geometry" />
+        </mxCell>
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="S7ipmS2MTnEU-Al_-uoX-206" source="S7ipmS2MTnEU-Al_-uoX-90" target="S7ipmS2MTnEU-Al_-uoX-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-90" value="时空语义表征" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.alexa_skill;labelPosition=right;" vertex="1" parent="S7ipmS2MTnEU-Al_-uoX-206">
+          <mxGeometry x="150.07000000000005" y="120" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-92" value="数字模型" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;outlineConnect=0;shape=mxgraph.veeam.building;" vertex="1" parent="S7ipmS2MTnEU-Al_-uoX-206">
+          <mxGeometry width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-93" value="物理模型" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Large_Building.svg;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="S7ipmS2MTnEU-Al_-uoX-206">
+          <mxGeometry x="312.0000000000001" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-94" value="&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;时空语义信息辅助建筑物模型数据匹配&lt;/span&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/SendGrid_Accounts.svg;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="S7ipmS2MTnEU-Al_-uoX-206">
+          <mxGeometry x="160.0000000000001" y="30" width="48.14" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399FF;" edge="1" parent="S7ipmS2MTnEU-Al_-uoX-206" source="S7ipmS2MTnEU-Al_-uoX-92" target="S7ipmS2MTnEU-Al_-uoX-94">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="600" y="230" />
-              <mxPoint x="600" y="230" />
+              <mxPoint x="34" y="100" />
+              <mxPoint x="170" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399ff;" edge="1" parent="S7ipmS2MTnEU-Al_-uoX-206" source="S7ipmS2MTnEU-Al_-uoX-94" target="S7ipmS2MTnEU-Al_-uoX-93">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="30" />
+              <mxPoint x="270" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="S7ipmS2MTnEU-Al_-uoX-206" source="S7ipmS2MTnEU-Al_-uoX-93" target="S7ipmS2MTnEU-Al_-uoX-94">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="354" y="100" />
+              <mxPoint x="200" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="S7ipmS2MTnEU-Al_-uoX-206" source="S7ipmS2MTnEU-Al_-uoX-94" target="S7ipmS2MTnEU-Al_-uoX-92">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="30" />
+              <mxPoint x="140" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="S7ipmS2MTnEU-Al_-uoX-206" source="S7ipmS2MTnEU-Al_-uoX-178" target="S7ipmS2MTnEU-Al_-uoX-90">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="230" />
+              <mxPoint x="170" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -292,14 +298,14 @@
             <mxPoint x="-89" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-178" value="建筑工程" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.aws_iot;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="580.07" y="264" width="68" height="68" as="geometry" />
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-178" value="建筑工程" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.aws_iot;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="S7ipmS2MTnEU-Al_-uoX-206">
+          <mxGeometry x="150.07000000000005" y="264" width="68" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S7ipmS2MTnEU-Al_-uoX-90" target="S7ipmS2MTnEU-Al_-uoX-178">
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="S7ipmS2MTnEU-Al_-uoX-206" source="S7ipmS2MTnEU-Al_-uoX-90" target="S7ipmS2MTnEU-Al_-uoX-178">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="630" y="220" />
-              <mxPoint x="630" y="220" />
+              <mxPoint x="200" y="220" />
+              <mxPoint x="200" y="220" />
             </Array>
           </mxGeometry>
         </mxCell>
