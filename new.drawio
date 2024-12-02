@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="25.0.1">
   <diagram name="第 1 页" id="EJKwOc-FRMgf60jU0c49">
-    <mxGraphModel dx="2207" dy="2073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1497" dy="1608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,22 +13,22 @@
         <mxCell id="S7ipmS2MTnEU-Al_-uoX-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="520" as="sourcePoint" />
-            <mxPoint x="80" y="10" as="targetPoint" />
+            <mxPoint x="80" y="-40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S7ipmS2MTnEU-Al_-uoX-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="S7ipmS2MTnEU-Al_-uoX-3" target="S7ipmS2MTnEU-Al_-uoX-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-3" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="100" y="430" width="90" height="80" as="geometry">
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-3" value="构件空间数据" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="85" y="430" width="120" height="80" as="geometry">
             <mxRectangle x="5" y="54.5" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-4" value="Item 1 (x,y,z)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="S7ipmS2MTnEU-Al_-uoX-3">
-          <mxGeometry y="26" width="90" height="24" as="geometry" />
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-4" value="Item 1 (x1,y1,z1)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="S7ipmS2MTnEU-Al_-uoX-3">
+          <mxGeometry y="26" width="120" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-5" value="Item 2 (a,b,c)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="S7ipmS2MTnEU-Al_-uoX-3">
-          <mxGeometry y="50" width="90" height="30" as="geometry" />
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-5" value="Item 2 (x2,y2,z2)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="S7ipmS2MTnEU-Al_-uoX-3">
+          <mxGeometry y="50" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S7ipmS2MTnEU-Al_-uoX-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="S7ipmS2MTnEU-Al_-uoX-6" target="S7ipmS2MTnEU-Al_-uoX-7">
           <mxGeometry relative="1" as="geometry">
@@ -38,8 +38,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-6" value="Relationship" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="97" y="360" width="96" height="53" as="geometry" />
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-6" value="空间关系" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="98.5" y="368" width="93" height="43" as="geometry" />
         </mxCell>
         <mxCell id="S7ipmS2MTnEU-Al_-uoX-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="S7ipmS2MTnEU-Al_-uoX-7" target="S7ipmS2MTnEU-Al_-uoX-20">
           <mxGeometry relative="1" as="geometry" />
@@ -60,7 +60,7 @@
             <mxRectangle width="36" height="22" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-11" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Embed&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="S7ipmS2MTnEU-Al_-uoX-8">
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-11" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;嵌入&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="S7ipmS2MTnEU-Al_-uoX-8">
           <mxGeometry x="74" width="38" height="22" as="geometry">
             <mxRectangle width="38" height="22" as="alternateBounds" />
           </mxGeometry>
@@ -78,7 +78,7 @@
             <mxRectangle width="36" height="22" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-15" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Contain&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="S7ipmS2MTnEU-Al_-uoX-12">
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-15" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;包含&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="S7ipmS2MTnEU-Al_-uoX-12">
           <mxGeometry x="74" width="38" height="22" as="geometry">
             <mxRectangle width="38" height="22" as="alternateBounds" />
           </mxGeometry>
@@ -96,12 +96,12 @@
             <mxRectangle width="36" height="22" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-19" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Overlap&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="S7ipmS2MTnEU-Al_-uoX-16">
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-19" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;重合&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="S7ipmS2MTnEU-Al_-uoX-16">
           <mxGeometry x="74" width="38" height="22" as="geometry">
             <mxRectangle width="38" height="22" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-20" value="Entity Dependency" style="shape=associativeEntity;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-20" value="构件依赖关系" style="shape=associativeEntity;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="95" y="110" width="100" height="66" as="geometry" />
         </mxCell>
         <mxCell id="S7ipmS2MTnEU-Al_-uoX-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.032;exitY=0.669;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="S7ipmS2MTnEU-Al_-uoX-31">
@@ -110,20 +110,19 @@
             <mxPoint x="40" y="505" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-23" value="Space" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-23" value="空间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="10" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-24" value="Time" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-24" value="时间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="920" y="530" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S7ipmS2MTnEU-Al_-uoX-25" target="S7ipmS2MTnEU-Al_-uoX-47">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S7ipmS2MTnEU-Al_-uoX-25" target="S7ipmS2MTnEU-Al_-uoX-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="268.5" y="402" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-25" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.plotChart;strokeColor=none;strokeColor2=#aaaaaa;strokeColor3=#666666;fillColor2=#99aaff,#0022ff,#008cff;" vertex="1" parent="1">
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-25" value="构件搭建进程" style="verticalLabelPosition=top;shadow=0;dashed=0;align=center;html=1;verticalAlign=bottom;strokeWidth=1;shape=mxgraph.mockup.graphics.plotChart;strokeColor=none;strokeColor2=#aaaaaa;strokeColor3=#666666;fillColor2=#99aaff,#0022ff,#008cff;labelPosition=center;" vertex="1" parent="1">
           <mxGeometry x="103.77999999999997" y="10" width="82.44" height="63" as="geometry" />
-        </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-29" value="Building property" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="190" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S7ipmS2MTnEU-Al_-uoX-31" value="BIM数据" style="image;points=[];html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Building_Cluster.svg;" vertex="1" parent="1">
           <mxGeometry x="-90" y="420" width="120" height="100" as="geometry" />
@@ -137,20 +136,14 @@
         <mxCell id="S7ipmS2MTnEU-Al_-uoX-45" value="运维阶段" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/analytics/streaming_computing.svg;" vertex="1" parent="1">
           <mxGeometry x="827" y="556.74" width="78.5185185185185" height="78.5185185185185" as="geometry" />
         </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S7ipmS2MTnEU-Al_-uoX-47" target="S7ipmS2MTnEU-Al_-uoX-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="S7ipmS2MTnEU-Al_-uoX-47" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Analysis_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="230" y="402" width="76.92" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="S7ipmS2MTnEU-Al_-uoX-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="S7ipmS2MTnEU-Al_-uoX-48" target="S7ipmS2MTnEU-Al_-uoX-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="S7ipmS2MTnEU-Al_-uoX-48" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.oms.server_width_changes" vertex="1" parent="1">
-          <mxGeometry x="520" y="407" width="47" height="50" as="geometry" />
+          <mxGeometry x="518.5" y="413.2" width="47" height="50" as="geometry" />
         </mxCell>
         <mxCell id="S7ipmS2MTnEU-Al_-uoX-49" value="Event (time-&#xa;based)" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.event_time_based;" vertex="1" parent="1">
-          <mxGeometry x="357.7" y="400" width="64" height="64" as="geometry" />
+          <mxGeometry x="237" y="406.2" width="64" height="64" as="geometry" />
         </mxCell>
         <mxCell id="S7ipmS2MTnEU-Al_-uoX-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S7ipmS2MTnEU-Al_-uoX-49" target="S7ipmS2MTnEU-Al_-uoX-48">
           <mxGeometry relative="1" as="geometry" />
@@ -247,6 +240,14 @@
         </mxCell>
         <mxCell id="S7ipmS2MTnEU-Al_-uoX-100" value="设计阶段" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.servo;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="224" y="559" width="90" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-101" value="构件建筑属性" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="150" y="190" width="110" height="50" as="geometry">
+            <mxRectangle x="5" y="54.5" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7ipmS2MTnEU-Al_-uoX-102" value="支撑；连接；包围" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="S7ipmS2MTnEU-Al_-uoX-101">
+          <mxGeometry y="26" width="110" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
